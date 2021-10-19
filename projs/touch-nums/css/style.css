@@ -1,0 +1,27 @@
+table,
+td {
+  text-align: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 100px;
+  float: none;
+  margin: auto;
+  margin-top: 50px;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.pressed {
+  background-color: yellow;
+}
+
+body {
+  text-align: center;
+}
+.timer {
+  margin-top: 30px;
+}

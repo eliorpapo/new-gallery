@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.win {
+  margin-right: 20px;
+}
+
+.lose {
+  margin-right: 20px;
+}
+
+.pacman {
+  width: 25px;
+  height: 25px;
+  transition: 1s;
+}
+
+.board-container{
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  margin-top: 50px;
+}
+.pacmanDown{
+  transform: rotate(90deg)
+}
+.pacmanUp{
+  transform: rotate(-90deg)
+}
+.pacmanLeft{
+  transform: rotate(180deg)
+}
